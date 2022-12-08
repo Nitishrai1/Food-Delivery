@@ -1,0 +1,79 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url('../img/login-page.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.loginbox img{
+    height: 50px;
+    margin-top: 10px;
+    margin-left: 50px;
+    
+}
+.loginbox{
+    width: 320px;
+    height: 420px;
+    background: rgb(12, 12, 12);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 20px 60px;
+}
+.photo{
+    width: 100px;
+    height: 10px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+}
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+
+}
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.loginbox input[type="text"],input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color: #fff;
+    font-size: 16px;
+
+
+}
+a{
+    color: rgb(220, 140, 27);
+    border-radius: 3px;
+    margin: left 15px;;
+   
+}
+
+a:hover{
+    box-shadow: 0 5px 50px 0 #15f4ee inset, 0 5px 50px 0 #15f4ee,
+    0 5px 50px 0 #78bab8 inset, 0 5px 50px 0 #15f4ee;
+
+}
+/* #background-text{
+    color: antiquewhite;
+} */
+.btn a{
+    margin-left: 50px;
+    padding-left: 0px;
+    margin-right: 50px;
+    
+    
+}

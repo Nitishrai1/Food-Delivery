@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    
+    <link rel="stylesheet" href="css/Form-style.css">
+</head>
+<body >
+
+    <form action="">
+        <header id="header">Order Details </header>
+        <p><h2>Food Items</h2></p >
+            <div class="box">
+        <p>Food Item Type: 
+            
+            <span><select name="Food_type" id="Food_type">
+                <option value="">-select a Food Type-</option>
+                <option value="Starters">Starters</option>
+                <option value="Snacks">Snaks</option>
+                <option value="MainCourse">MainCourse</option>
+               
+
+            </select></div>
+        </p>
+           <div class="box2"> <p>Food Item:
+                <select name="Food" id="Food">
+                   <option value="">Select a Food</option>
+                   <option value="KadhaPaneer">KadhaiPaneer</option>
+                   <option value="ButterPaneer">ButterPaneer</option>
+                   <option value="HandiChicken">HandiChicken</option>
+                               
+                <option value="">Tandoori Chicken</option>
+                <option value="">Haiderabadi Chicken</option>
+                <option value="">Handi Kabba</option>
+
+                
+
+            </select></div>
+        </p>
+        <p><h2>Drinking Items</h2></p>
+        <p>
+            Drinking Item Type:
+            <select name="Drink_Type" id="Drink_Type">
+                <option value="">Select Drinking Item</option>
+                <option value="SoftDrink">SoftDrink</option>
+                <option value="HardDrink">HardDrink</option>
+                <option value="FilterWater">FilterWater</option>
+                <option value="Vine">Vine</option>
+            </select>
+        </p>
+        <hr>
+        <p>
+            Drinking Item:
+            <select name="Drink" id="Drink">
+                <option value="">Selct Drink</option>
+                <option value="Mozito">Mozito</option>
+                <option value="Rum">Rum</option>
+                <option value="Vodka">Vodka</option>
+                <option value="Tharra">Sprit</option>
+                <option value="Paua">Coco-cola</option>
+                <option value="RedVine">RedVine</option>
+                <option value="KingFisher">KingFisher</option>
+                <option value="Water">Water</option>
+            </select>
+            
+        </p>
+       <h2> Contact Details</h2>
+
+        <p> Name: *<input type="name" required></p>
+        <fieldset>
+            <legend>Gender *</legend>
+            <p>
+
+                Male <input type="radio" name="gender" id="male" required>
+                Female <input type="radio" name="gender" id="female" required>
+                Trans-Gender <input type="radio" name="gender" id="TranshGender">
+            </p>
+        </fieldset>
+       <p>
+            Address:<textarea name="address" id="address"
+        cols="20" rows="2"></textarea>
+       </p>
+       <p>Email: <input type="email" name="email" id="email" required></p>
+       <p>PinCode: <input type="number" name="pincode" id="pincode" required></p>
+       <h2>Payment-Details:</h2>
+       <p>Card Type: 
+        <select name="Card_type" id="card_type">
+        <option value="">Select Card Type</option>
+        <option value="Master Card">Master Card</option>
+        <option value="SBI">SBI Card</option>
+        <option value="Credit Card">Credit Card</option>
+        <option value="Rupay">Rupay</option>
+       </p>
+    </select>
+    <p>
+        Card Number:<input type="number" id="number" required>
+    </p>
+    <p>Expiration Date:<input type="date" name="exp_date" id="exp_date" required></p>
+    <p>CVV Number:<input type="password" name="cvv" id="number" required></p>
+    <input id="submit"  type="submit" value="Pay Now">
+
+    </form>
+    
+</body>
+</html>
